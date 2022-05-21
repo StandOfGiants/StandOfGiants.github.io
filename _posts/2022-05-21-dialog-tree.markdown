@@ -22,7 +22,7 @@ The dialog system supports several methods of text formatting:
 
 ### User Data
 
-When starting up the game, we are planning on having a prompt that asks the users things like their character name, pronouns, hair color, etc.
+When starting up the game, we are planning on having a prompt that asks the users (players) things like their character name, pronouns, hair color, etc.
 
 This data will be able to be inserted into the text using backticks. For example `` `name` `` would be replaced with the user name that was provided by the player.
 
@@ -32,7 +32,7 @@ By default, dialog lines are shown to the player one line at a time. The types o
 
 ### A message said by a character
 
-This is a message that is said by a user. The format of the line is the character's name, followed by a colon (`:`) followed by the message the character says. For example:
+This is a message that is said by a character (e.g. Smoker/Hina/etc.). The format of the line is the character's name, followed by a colon (`:`) followed by the message the character says. For example:
 
 ```
 character: message
